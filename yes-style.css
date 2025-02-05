@@ -17,18 +17,8 @@ body {
     color: #d32f2f;
 }
 
-.gif_container img {
-    width: 100%; 
-    max-width: 500px; 
-    height: auto; 
-}
-
 @media (max-width: 600px) {
     .header_text {
         font-size: 2em;
-    }
-
-    .gif_container img {
-        max-width: 100%;
     }
 }
