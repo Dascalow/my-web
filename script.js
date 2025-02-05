@@ -21,7 +21,7 @@ function handleNuClick() {
         messageIndex++;
     } else {
         noButton.style.display = 'none';
-        yesButton.textContent = "Scuze, doar DA poți să alegi";
+        yesButton.textContent = "Ești obligată să spui DA!";
         yesButton.style.fontSize = '1.5em';
     }
     const currentSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
